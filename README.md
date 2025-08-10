@@ -5,7 +5,7 @@
   - Downloads YAML instruction files grouped by extension (I, M, C, etc.)
   - Generates:
     - C header files (`.h`) with instruction data structures
-    - C source files (`.c`) with YAML serialization logic
+    - C source files (`.c`) with YAML generation logic
 - **Output Structure**:
   ```
   output/

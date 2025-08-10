@@ -1,7 +1,6 @@
 ## Overview
 
 ### 1. `main.py`
-- **Functionality**:
   - Scans `spec/std/isa/inst` directory in riscv-unified-db
   - Downloads YAML instruction files grouped by extension (I, M, C, etc.)
   - Generates:
@@ -19,10 +18,9 @@
   ```
 
 ### 2. `validate.py`
-- **Verification Process**:
-  1. Executes generated C code to reproduce YAML
-  2. Re-parses the output through the same pipeline
-  3. The emitted YAML file matches the generated YAML file.
+  - Executes generated C code to reproduce YAML
+  - Re-parses the output through the same pipeline
+  - The emitted YAML file matches the generated YAML file.
 
 ## Usage
 
